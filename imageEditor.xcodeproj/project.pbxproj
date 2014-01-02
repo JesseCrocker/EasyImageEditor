@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		888FDCBB15C0200A00BAE7D8 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 888FDCBA15C0200A00BAE7D8 /* PaintView.m */; };
+		888FDCCC15C0273000BAE7D8 /* JCColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888FDCCA15C0273000BAE7D8 /* JCColorPickerViewController.m */; };
+		888FDCCD15C0273000BAE7D8 /* JCColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888FDCCB15C0273000BAE7D8 /* JCColorPickerViewController.xib */; };
+		888FDCD415C0372600BAE7D8 /* FPPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888FDCD315C0372600BAE7D8 /* FPPopoverController.m */; };
+		888FDCD915C0373000BAE7D8 /* FPPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 888FDCD615C0373000BAE7D8 /* FPPopoverView.m */; };
+		888FDCDA15C0373000BAE7D8 /* FPTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 888FDCD815C0373000BAE7D8 /* FPTouchView.m */; };
+		888FDCDE15C042BF00BAE7D8 /* JCBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 888FDCDD15C042BF00BAE7D8 /* JCBezierPath.m */; };
+		888FDCE015C04A6200BAE7D8 /* JCColorPickerViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888FDCDF15C04A6200BAE7D8 /* JCColorPickerViewController~ipad.xib */; };
+		889C723715C0C348004AAFF5 /* JCTwoFingerRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 889C723615C0C348004AAFF5 /* JCTwoFingerRotationGestureRecognizer.m */; };
+		88B9391D15BEC94B00614783 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B9391C15BEC94B00614783 /* UIKit.framework */; };
+		88B9391F15BEC94B00614783 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B9391E15BEC94B00614783 /* Foundation.framework */; };
+		88B9392115BEC94B00614783 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B9392015BEC94B00614783 /* CoreGraphics.framework */; };
+		88B9392715BEC94B00614783 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88B9392515BEC94B00614783 /* InfoPlist.strings */; };
+		88B9392915BEC94B00614783 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B9392815BEC94B00614783 /* main.m */; };
+		88B9392D15BEC94B00614783 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B9392C15BEC94B00614783 /* AppDelegate.m */; };
+		88B9393015BEC94B00614783 /* drawableImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B9392F15BEC94B00614783 /* drawableImageViewController.m */; };
+		88B9393315BEC94B00614783 /* drawableImageViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B9393115BEC94B00614783 /* drawableImageViewController_iPhone.xib */; };
+		88B9393615BEC94B00614783 /* drawableImageViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B9393415BEC94B00614783 /* drawableImageViewController_iPad.xib */; };
+		88B9393D15BEC9C700614783 /* palisade slide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88B9393C15BEC9C700614783 /* palisade slide.jpg */; };
+		88B9395515BED35E00614783 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B9395315BED35E00614783 /* pencil.png */; };
+		88B9395615BED35E00614783 /* pencil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B9395415BED35E00614783 /* pencil@2x.png */; };
+		88B9395815BED5A900614783 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B9395715BED5A900614783 /* QuartzCore.framework */; };
+		88B9396815BEE03900614783 /* imageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B9396715BEE03900614783 /* imageScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		888FDCB915C0200A00BAE7D8 /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		888FDCBA15C0200A00BAE7D8 /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
+		888FDCC915C0273000BAE7D8 /* JCColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCColorPickerViewController.h; sourceTree = "<group>"; };
+		888FDCCA15C0273000BAE7D8 /* JCColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCColorPickerViewController.m; sourceTree = "<group>"; };
+		888FDCCB15C0273000BAE7D8 /* JCColorPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCColorPickerViewController.xib; sourceTree = "<group>"; };
+		888FDCD215C0372600BAE7D8 /* FPPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPopoverController.h; sourceTree = "<group>"; };
+		888FDCD315C0372600BAE7D8 /* FPPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPopoverController.m; sourceTree = "<group>"; };
+		888FDCD515C0373000BAE7D8 /* FPPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPopoverView.h; sourceTree = "<group>"; };
+		888FDCD615C0373000BAE7D8 /* FPPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPopoverView.m; sourceTree = "<group>"; };
+		888FDCD715C0373000BAE7D8 /* FPTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTouchView.h; sourceTree = "<group>"; };
+		888FDCD815C0373000BAE7D8 /* FPTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTouchView.m; sourceTree = "<group>"; };
+		888FDCDC15C042BF00BAE7D8 /* JCBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCBezierPath.h; sourceTree = "<group>"; };
+		888FDCDD15C042BF00BAE7D8 /* JCBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCBezierPath.m; sourceTree = "<group>"; };
+		888FDCDF15C04A6200BAE7D8 /* JCColorPickerViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "JCColorPickerViewController~ipad.xib"; sourceTree = "<group>"; };
+		889C723515C0C348004AAFF5 /* JCTwoFingerRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; path = JCTwoFingerRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		889C723615C0C348004AAFF5 /* JCTwoFingerRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTwoFingerRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		88B9391815BEC94B00614783 /* imageEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B9391C15BEC94B00614783 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88B9391E15BEC94B00614783 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88B9392015BEC94B00614783 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88B9392415BEC94B00614783 /* imageEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "imageEditor-Info.plist"; sourceTree = "<group>"; };
+		88B9392615BEC94B00614783 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88B9392815BEC94B00614783 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88B9392A15BEC94B00614783 /* imageEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imageEditor-Prefix.pch"; sourceTree = "<group>"; };
+		88B9392B15BEC94B00614783 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88B9392C15BEC94B00614783 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88B9392E15BEC94B00614783 /* drawableImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drawableImageViewController.h; sourceTree = "<group>"; };
+		88B9392F15BEC94B00614783 /* drawableImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawableImageViewController.m; sourceTree = "<group>"; };
+		88B9393215BEC94B00614783 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/drawableImageViewController_iPhone.xib; sourceTree = "<group>"; };
+		88B9393515BEC94B00614783 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/drawableImageViewController_iPad.xib; sourceTree = "<group>"; };
+		88B9393C15BEC9C700614783 /* palisade slide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "palisade slide.jpg"; sourceTree = "<group>"; };
+		88B9395315BED35E00614783 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		88B9395415BED35E00614783 /* pencil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pencil@2x.png"; sourceTree = "<group>"; };
+		88B9395715BED5A900614783 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		88B9396615BEE03900614783 /* imageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageScrollView.h; sourceTree = "<group>"; };
+		88B9396715BEE03900614783 /* imageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88B9391515BEC94B00614783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B9395815BED5A900614783 /* QuartzCore.framework in Frameworks */,
+				88B9391D15BEC94B00614783 /* UIKit.framework in Frameworks */,
+				88B9391F15BEC94B00614783 /* Foundation.framework in Frameworks */,
+				88B9392115BEC94B00614783 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		888FDCDB15C0373500BAE7D8 /* fppopover */ = {
+			isa = PBXGroup;
+			children = (
+				888FDCD215C0372600BAE7D8 /* FPPopoverController.h */,
+				888FDCD315C0372600BAE7D8 /* FPPopoverController.m */,
+				888FDCD515C0373000BAE7D8 /* FPPopoverView.h */,
+				888FDCD615C0373000BAE7D8 /* FPPopoverView.m */,
+				888FDCD715C0373000BAE7D8 /* FPTouchView.h */,
+				888FDCD815C0373000BAE7D8 /* FPTouchView.m */,
+			);
+			name = fppopover;
+			sourceTree = "<group>";
+		};
+		88B9390D15BEC94B00614783 = {
+			isa = PBXGroup;
+			children = (
+				88B9392215BEC94B00614783 /* imageEditor */,
+				88B9391B15BEC94B00614783 /* Frameworks */,
+				88B9391915BEC94B00614783 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88B9391915BEC94B00614783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88B9391815BEC94B00614783 /* imageEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88B9391B15BEC94B00614783 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88B9395715BED5A900614783 /* QuartzCore.framework */,
+				88B9391C15BEC94B00614783 /* UIKit.framework */,
+				88B9391E15BEC94B00614783 /* Foundation.framework */,
+				88B9392015BEC94B00614783 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88B9392215BEC94B00614783 /* imageEditor */ = {
+			isa = PBXGroup;
+			children = (
+				88B9392B15BEC94B00614783 /* AppDelegate.h */,
+				88B9392C15BEC94B00614783 /* AppDelegate.m */,
+				88B9392E15BEC94B00614783 /* drawableImageViewController.h */,
+				88B9392F15BEC94B00614783 /* drawableImageViewController.m */,
+				88B9393115BEC94B00614783 /* drawableImageViewController_iPhone.xib */,
+				88B9393415BEC94B00614783 /* drawableImageViewController_iPad.xib */,
+				888FDCB915C0200A00BAE7D8 /* PaintView.h */,
+				888FDCBA15C0200A00BAE7D8 /* PaintView.m */,
+				88B9393C15BEC9C700614783 /* palisade slide.jpg */,
+				88B9396615BEE03900614783 /* imageScrollView.h */,
+				88B9396715BEE03900614783 /* imageScrollView.m */,
+				88B9395315BED35E00614783 /* pencil.png */,
+				88B9395415BED35E00614783 /* pencil@2x.png */,
+				888FDCC915C0273000BAE7D8 /* JCColorPickerViewController.h */,
+				888FDCCA15C0273000BAE7D8 /* JCColorPickerViewController.m */,
+				888FDCCB15C0273000BAE7D8 /* JCColorPickerViewController.xib */,
+				888FDCDF15C04A6200BAE7D8 /* JCColorPickerViewController~ipad.xib */,
+				888FDCDC15C042BF00BAE7D8 /* JCBezierPath.h */,
+				888FDCDD15C042BF00BAE7D8 /* JCBezierPath.m */,
+				889C723515C0C348004AAFF5 /* JCTwoFingerRotationGestureRecognizer.h */,
+				889C723615C0C348004AAFF5 /* JCTwoFingerRotationGestureRecognizer.m */,
+				888FDCDB15C0373500BAE7D8 /* fppopover */,
+				88B9392315BEC94B00614783 /* Supporting Files */,
+			);
+			path = imageEditor;
+			sourceTree = "<group>";
+		};
+		88B9392315BEC94B00614783 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88B9392415BEC94B00614783 /* imageEditor-Info.plist */,
+				88B9392515BEC94B00614783 /* InfoPlist.strings */,
+				88B9392815BEC94B00614783 /* main.m */,
+				88B9392A15BEC94B00614783 /* imageEditor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88B9391715BEC94B00614783 /* imageEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B9393915BEC94B00614783 /* Build configuration list for PBXNativeTarget "imageEditor" */;
+			buildPhases = (
+				88B9391415BEC94B00614783 /* Sources */,
+				88B9391515BEC94B00614783 /* Frameworks */,
+				88B9391615BEC94B00614783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imageEditor;
+			productName = imageEditor;
+			productReference = 88B9391815BEC94B00614783 /* imageEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88B9390F15BEC94B00614783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 88B9391215BEC94B00614783 /* Build configuration list for PBXProject "imageEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88B9390D15BEC94B00614783;
+			productRefGroup = 88B9391915BEC94B00614783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88B9391715BEC94B00614783 /* imageEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88B9391615BEC94B00614783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B9392715BEC94B00614783 /* InfoPlist.strings in Resources */,
+				88B9393315BEC94B00614783 /* drawableImageViewController_iPhone.xib in Resources */,
+				88B9393615BEC94B00614783 /* drawableImageViewController_iPad.xib in Resources */,
+				88B9393D15BEC9C700614783 /* palisade slide.jpg in Resources */,
+				88B9395515BED35E00614783 /* pencil.png in Resources */,
+				88B9395615BED35E00614783 /* pencil@2x.png in Resources */,
+				888FDCCD15C0273000BAE7D8 /* JCColorPickerViewController.xib in Resources */,
+				888FDCE015C04A6200BAE7D8 /* JCColorPickerViewController~ipad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88B9391415BEC94B00614783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B9392915BEC94B00614783 /* main.m in Sources */,
+				88B9392D15BEC94B00614783 /* AppDelegate.m in Sources */,
+				88B9393015BEC94B00614783 /* drawableImageViewController.m in Sources */,
+				88B9396815BEE03900614783 /* imageScrollView.m in Sources */,
+				888FDCBB15C0200A00BAE7D8 /* PaintView.m in Sources */,
+				888FDCCC15C0273000BAE7D8 /* JCColorPickerViewController.m in Sources */,
+				888FDCD415C0372600BAE7D8 /* FPPopoverController.m in Sources */,
+				888FDCD915C0373000BAE7D8 /* FPPopoverView.m in Sources */,
+				888FDCDA15C0373000BAE7D8 /* FPTouchView.m in Sources */,
+				888FDCDE15C042BF00BAE7D8 /* JCBezierPath.m in Sources */,
+				889C723715C0C348004AAFF5 /* JCTwoFingerRotationGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88B9392515BEC94B00614783 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B9392615BEC94B00614783 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88B9393115BEC94B00614783 /* drawableImageViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B9393215BEC94B00614783 /* en */,
+			);
+			name = drawableImageViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		88B9393415BEC94B00614783 /* drawableImageViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B9393515BEC94B00614783 /* en */,
+			);
+			name = drawableImageViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88B9393715BEC94B00614783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88B9393815BEC94B00614783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88B9393A15BEC94B00614783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imageEditor/imageEditor-Prefix.pch";
+				INFOPLIST_FILE = "imageEditor/imageEditor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88B9393B15BEC94B00614783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imageEditor/imageEditor-Prefix.pch";
+				INFOPLIST_FILE = "imageEditor/imageEditor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88B9391215BEC94B00614783 /* Build configuration list for PBXProject "imageEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B9393715BEC94B00614783 /* Debug */,
+				88B9393815BEC94B00614783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B9393915BEC94B00614783 /* Build configuration list for PBXNativeTarget "imageEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B9393A15BEC94B00614783 /* Debug */,
+				88B9393B15BEC94B00614783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88B9390F15BEC94B00614783 /* Project object */;
+}
